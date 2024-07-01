@@ -26,3 +26,37 @@ This project is a basic implementation of a decentralized identity verification 
 ```bash
 npm install -g truffle
 npm install -g ganache-cli
+
+2. Back-End Setup
+Initialize Node.js Project
+
+mkdir backend
+cd backend
+npm init -y
+npm install express web3
+
+3. Front-End Setup
+Initialize React Project
+
+npx create-react-app frontend
+cd frontend
+npm install 
+
+Final Steps
+1.Run Ganache: ganache-cli
+2.Deploy Smart Contracts: truffle migrate
+3.Start IPFS: ipfs daemon
+4.Start Backend: node server.js
+5.Start Frontend: npm start (from the frontend directory)
+
+Future Enhancements
+1.Implement more advanced security and privacy features.
+2.Add user authentication and access control.
+3.Enhance the UI for better user experience.
+4.Optimize IPFS usage and data retrieval.
+
+Contributing
+Contributions are welcome! Please fork the repository and submit pull requests.
+
+License
+This project is licensed under the MIT License.
